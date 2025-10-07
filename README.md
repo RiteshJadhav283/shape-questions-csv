@@ -19,17 +19,19 @@ Open your terminal in this folder and run:
 mvn clean package
 ```
 
-This creates a file called `excel-generator-1.0.0-shaded.jar` in the `target` folder.
+This creates a file called `excel-generator-1.0.0.jar` in the `target` folder.
 
 #### Step 2: Generate the CSV File
 
 Run this command:
 
 ```bash
-java -jar target/excel-generator-1.0.0-shaded.jar
+java -jar target/excel-generator-1.0.0.jar
 ```
 
 Done! You'll get a file called `shape_questions.csv` in the same folder.
+
+**Alternative:** You can also double-click the `excel-generator-1.0.0.jar` file in the `target` folder to run it (works best on Windows). The CSV will be generated in your current directory.
 
 ### Option 2: Run Java File Directly (Easiest)
 
@@ -50,13 +52,13 @@ mvn compile exec:java -Dexec.mainClass="com.example.excel.QuestionGenerator"
 Add the file path after the command:
 
 ```bash
-java -jar target/excel-generator-1.0.0-shaded.jar "my_questions.csv"
+java -jar target/excel-generator-1.0.0.jar "my_questions.csv"
 ```
 
 Or save it in a different folder:
 
 ```bash
-java -jar target/excel-generator-1.0.0-shaded.jar "output/questions.csv"
+java -jar target/excel-generator-1.0.0.jar "output/questions.csv"
 ```
 
 ## What's in the CSV File?
@@ -75,3 +77,4 @@ You can open this file in Excel, Google Sheets, or any spreadsheet program.
 - Make sure Java 17+ is installed
 - Make sure you're in the correct folder when running commands
 - If you see errors, read the error message - it usually tells you what's wrong
+

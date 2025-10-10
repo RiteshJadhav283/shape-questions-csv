@@ -111,7 +111,7 @@ public class QuestionGenerator {
     };
     // Other shapes to use as wrong answers
     private static final String[] WRONG_ANSWER_SHAPES = {
-        "Circle", "Cone", "Cube", "Parallelepiped", "Hexagon", "Octagon", 
+        "Circle", "Cone", "Cube", "Parallel piped", "Hexagon", "Octagon", 
         "Oval", "Pentagon", "Prism", "Pyramid", "Rectangle", 
         "Semicircle", "Sphere", "Square", "Triangle"
     };
@@ -226,7 +226,7 @@ public class QuestionGenerator {
         // names.put("Kite", "पतंग");
         names.put("Circle", "वर्तुळ");
         // names.put("Semi-circle", "अर्धवर्तुळ");
-        // names.put("Semicircle", "अर्धवर्तुळ");
+        names.put("Semicircle", "अर्धवर्तुळ");
         // names.put("Quadrilateral", "चौकोन");
         names.put("Pentagon", "पंचकोन");
         names.put("Hexagon", "षटकोन");
@@ -236,9 +236,9 @@ public class QuestionGenerator {
         // names.put("Decagon", "दशकोन");
         names.put("Oval", "अंडाकार");
         names.put("Cube", "घन");
-        names.put("Parallelepiped", "समांतरषट्फलक");
+        names.put("Parallel piped", "इष्टिकाचिती");
         names.put("Sphere", "गोल");
-        // names.put("Cylinder", "दंडगोल किंवा वृत्तचिती");
+        names.put("Cylinder", "दंडगोल किंवा वृत्तचिती");
         names.put("Cone", "शंकू");
         names.put("Prism", "प्रिझम");
         names.put("Pyramid", "पिरॅमिड");
